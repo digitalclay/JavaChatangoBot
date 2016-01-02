@@ -267,16 +267,16 @@ public class Room {
 		//Start login//
 		String loginStr = "";
 		
-		//default//
+		//Login as anon//
 		if(x == 1){
 			loginStr = "bauth:"+roomame+":"+ uid;
 		}
-		//login as anon//
+		//login with account//
 		if(x == 2){
 			loginStr = "bauth:"+roomame+":"+ uid+":"+ user_id+":"+ password;
 		}
 		
-		//Login with account//
+		//default *unused*//
 		if(x == 0){
 			loginStr = "bauth:"+roomame+":"+ uid+":"+ user_id+":"+ password;
 		}
