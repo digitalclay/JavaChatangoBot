@@ -20,7 +20,7 @@ import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
-
+ 
 /** 
  * @author Jon Rollins Synaptic Studios Jp - 2015
  * Chatango Room Client
